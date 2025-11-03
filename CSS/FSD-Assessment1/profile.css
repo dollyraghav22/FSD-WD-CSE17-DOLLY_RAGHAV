@@ -1,0 +1,29 @@
+body {
+    background: url("background.jpg");
+    background-repeat : no-repeat;
+    background-size: cover;
+}
+a {
+    text-decoration: none;
+}
+a:hover{
+    color: red; 
+    transition: 1s ease;
+}
+table:hover {
+    transform: scale(1.20); transition: transform .5s ease;
+}
+table { 
+    border-radius: 15px; 
+    overflow:hidden;   
+    border: 1px solid #ccc;
+    border-collapse: collapse; 
+    border-color: black;
+}
+td {
+    padding: 8px;
+}
+h2 {
+    color:black;
+    text-decoration: underline;
+}
